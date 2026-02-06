@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>テスト</title>
-  </head>
-  <body>
-    <h1>テスト</h1>
-  </body>
+<html lang="jp">
+<head>
+  <meta charset="utf-8">
+  <title>テストページ</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <button>QR読み取り</button>
+  <button>参加方法</button>
+  <div id="wrapper">
+    <video id="video" autoplay muted playsinline></video>
+    <canvas id="camera-canvas"></canvas>
+    <canvas id="rect-canvas"></canvas>
+  </div>
+  <h4 id="Code"></h4>
+</body>
+<script src="jsQR.js"></script>
+<script src="script.js"></script>
 </html>
