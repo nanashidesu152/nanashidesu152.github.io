@@ -1,5 +1,3 @@
-import {jsQR} from "./jsQR.js";
-
 const showCode = document.getElementById("Code");
 const readQR = document.getElementById("readQR");
 const QR_wrapper = document.getElementById("QR_wrapper");
