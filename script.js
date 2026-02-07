@@ -1,4 +1,4 @@
-import {jsQR} from "./jsQR";
+import {jsQR} from "./jsQR.js";
 
 const showCode = document.getElementById("Code");
 const readQR = document.getElementById("readQR");
