@@ -29,3 +29,15 @@
     top: 500px;
     left: 0;
 }
+
+button {
+    background: aqua;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px 20%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    word-break: auto-phrase;
+}
