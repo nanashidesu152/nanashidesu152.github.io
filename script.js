@@ -2,6 +2,8 @@ const showCode = document.getElementById("Code");
 const readQR = document.getElementById("readQR");
 const QR_wrapper = document.getElementById("QR_wrapper");
 
+const Test = document.getElementById("Test");
+
 const video = document.getElementById('video');
 let contentWidth;
 let contentHeight;
@@ -74,3 +76,5 @@ function scanedCode(code) {
     });
     QR_wrapper.style.visibility = "hidden";
 }
+
+Test.textContent = document.referrer;
