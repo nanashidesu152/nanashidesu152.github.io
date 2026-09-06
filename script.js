@@ -2,7 +2,15 @@ const rec = document.getElementById("rec");
 rec.addEventListener("click", recStart);
 
 async function recStart() {
-    const mediaStream = await navigator.mediaDevices.getUserMedia({audio: true, video: false});
+
+    let mediaStream;
+    
+    try{
+        mediaStream = await navigator.mediaDevices.getUserMedia({audio: true, video: false});
+    } catch(err) {
+        console.log(err);
+    }
+    
 
     const audioContext = new AudioContext({sampleRate: 48000});
 
